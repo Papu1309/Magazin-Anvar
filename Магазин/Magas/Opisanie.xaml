@@ -9,6 +9,11 @@
       Title="Opisanie">
 
     <Grid>
-        <TextBox TextWrapping="Wrap" Margin="10,50,10,10" x:Name="txbText"  />
+        <TextBlock Text="Описание книг" VerticalAlignment="Top" Margin="10" HorizontalAlignment="Stretch" TextAlignment="Center" FontSize="33" FontStyle="Italic" FontWeight="Bold" ></TextBlock>
+        <Button x:Name="Back" Content="Назад" Click="Back_Click" Width="100" Height="40" FontSize="25" FontWeight="Bold"  FontStyle="Italic" Background="Gold" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,26,0" ></Button>
+        <ScrollViewer>
+            <TextBox TextWrapping="Wrap" Margin="10,50,10,10" x:Name="txbText" IsEnabled="False" FontSize="25" FontStyle="Italic" FontWeight="Bold" />
+        </ScrollViewer>
     </Grid>
+
 </Page>

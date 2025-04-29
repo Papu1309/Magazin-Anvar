@@ -22,15 +22,13 @@
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn  Header="Название" Width="300"  DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn  Header="Название" Width="500"  DisplayMemberBinding="{Binding Name}"/>
                     <GridViewColumn Header="Стоимость" Width="200" DisplayMemberBinding="{Binding Price}" />
-                    <GridViewColumn Header="Описание" Width="550" DisplayMemberBinding="{Binding Opisanie}" />
                 </GridView>
             </ListView.View>
         </ListView>
         <Button Content="Описание" x:Name="Opisanie" Click="Opisanie_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Background="Gold" Width="240" Height="60" FontSize="20" FontWeight="Bold" Margin="0,0,10,75"/>
         <Button Content="Корзина" x:Name="Korzina" Click="Korzina_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10" Background="Gold" Width="240" Height="60" FontSize="20" FontWeight="Bold"/>
-        
     </Grid>
 
 </Page>

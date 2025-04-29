@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using Microsoft.Win32; 
 using System.IO;
 using System.Xml.Linq;
+using Магазин.Pages;
 
 namespace Магазин.Magas
 {
@@ -26,14 +27,17 @@ namespace Магазин.Magas
         public Opisanie()
         {
             InitializeComponent();
-            LoadTextFromFile("C:\\Users\\Ильмир\\Desktop\\Opisanie.txt");
+            LoadTextFromFile("C:\\Users\\Ильмир\\source\\repos\\Magazin-Ilmir4323423\\Магазин\\TextBoxs\\Opisanie.txt");
         }
         private void LoadTextFromFile(string filePath)
         {
-            txbText.Text = File.ReadAllText(filePath);
+            txbText.Text = File.ReadAllText(filePath, Encoding.GetEncoding("windows-1251"));
 
         }
 
-
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

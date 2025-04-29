@@ -12,7 +12,7 @@ namespace Магазин.Datagrid
         public int Price { get; set; }
         public bool IsSelected { get; set; }
         public string Foto {  get; set; }
-        public string Opisanie { get; set; }
+        
 
         //private bool choise;
         //public bool Choise

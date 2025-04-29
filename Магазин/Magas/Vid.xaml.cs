@@ -41,27 +41,21 @@ namespace Магазин.Magas
         {
             Spicoks = new List<Spicok>
             {
-                  new Spicok() {Name = "Антисептик",Price = 560,Foto = "/Photo/antiseptic.jpg",Opisanie = "Каждый рассказ открывает перед нами удивительный мир, в котором любовь и доброта занимают центральное место. Эти трогательные истории не только погружают нас в атмосферу тепла и заботы, но и демонстрируют крепкую, неразрывную связь между людьми и их четвероногими друзьями"},
-                  new Spicok() {Name = "Ароматизатор", Price = 784,Foto = "/Photo/aromatizator.jpg" },
-                  new Spicok() {Name = "Авточехлы", Price = 1700,Foto = "/Photo/avtochehli.jpg" },
-                  new Spicok() {Name = "Чехол", Price = 300,Foto = "/Photo/chehol.jpg" },
-                  new Spicok() {Name = "Игрушка", Price = 1790,Foto = "/Photo/igrushka.jpg" },
-                  new Spicok() {Name = "Колпаки", Price = 3700,Foto = "/Photo/kolpaki.jpg" },
-                  new Spicok() {Name = "Носки", Price = 680,Foto = "/Photo/noski.jpg" },
-                  new Spicok() {Name = "Планшет", Price = 5800,Foto = "/Photo/planshet.jpg" },
-                  new Spicok() {Name = "Порошок", Price = 1600,Foto = "/Photo/poroshok.jpg" },
-                  new Spicok() {Name = "Телефон", Price = 11399,Foto = "/Photo/telephone.jpg" },
-                  new Spicok() {Name = "Чайник", Price = 1349,Foto = "/Photo/chainic.jpg" },
-                  new Spicok() {Name = "Тарелка", Price = 239,Foto = "/Photo/tarelka.jpg" },
-                  new Spicok() {Name = "Крушка", Price = 149,Foto = "/Photo/krushka.jpg" },
-                  new Spicok() {Name = "Лошка", Price = 59,Foto = "/Photo/loshka.jpg" },
-                  new Spicok() {Name = "Вилка", Price = 59,Foto = "/Photo/Wilka.png" },
-                  new Spicok() {Name = "Лошка", Price = 59,Foto = "/Photo/loshka.jpg" },
-                  new Spicok() {Name = "Бутилированная вода", Price = 200,Foto = "/Photo/Woda.png" },
-                  new Spicok() {Name = "Зарядка", Price = 400,Foto = "/Photo/zaradka.jpg" },
-                  new Spicok() {Name = "Наушник", Price = 4567,Foto = "/Photo/nauchh.png" },
-                  new Spicok() {Name = "Постельный комплект", Price = 2389,Foto = "/Photo/postkomplekt.jpg" },
-                 
+                  new Spicok() {Name = "Родом из сердца",Price = 625,Foto = "/Photo/Родом из сердца.jpg" },
+                  new Spicok() {Name = "Странный дом", Price = 689 ,Foto = "/Photo/Странный дом.jpg" },
+                  new Spicok() {Name = "За спиной", Price = 759 ,Foto = "/Photo/За спиной.jpg" },
+                  new Spicok() {Name = "Атомные привычки", Price = 899 ,Foto = "/Photo/Атомные привычки.jpg" },
+                  new Spicok() {Name = "Татуировки менеджера", Price = 1115,Foto = "/Photo/Татуировки менеджера.jpg" },
+                  new Spicok() {Name = "Пять языков любви", Price = 487 ,Foto = "/Photo/Пять языков любви.jpg" },
+                  new Spicok() {Name = "Игры королей", Price = 781 ,Foto = "/Photo/Игры королей.jpg" },
+                  new Spicok() {Name = "Записи юного врача", Price = 541 ,Foto = "/Photo/Записи юного врача.jpg" },
+                  new Spicok() {Name = "Еженельник", Price = 428 ,Foto = "/Photo/Еженельник.jpg" },
+                  new Spicok() {Name = "Двадцать шестой", Price = 587 ,Foto = "/Photo/Двадцать шестой.jpg" },
+                  new Spicok() {Name = "Донецкое море", Price = 717 ,Foto = "/Photo/Донецкое море.jpg" },
+                  new Spicok() {Name = "Пластиковый океан", Price = 1195,Foto = "/Photo/Пластиковый океан.jpg" },
+                  new Spicok() {Name = "Клиника в Гоблинском переулке", Price = 505 ,Foto = "/Photo/Клиника в Гоблинском переулке.jpg" },
+                  new Spicok() {Name = "Семнадцатый", Price = 1655,Foto = "/Photo/Семнадцатый.jpg" },
+                
             };
 
         }
