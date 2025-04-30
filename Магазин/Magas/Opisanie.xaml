@@ -9,10 +9,22 @@
       Title="Opisanie">
 
     <Grid>
-        <TextBlock Text="Описание книг" VerticalAlignment="Top" Margin="10" HorizontalAlignment="Stretch" TextAlignment="Center" FontSize="33" FontStyle="Italic" FontWeight="Bold" ></TextBlock>
-        <Button x:Name="Back" Content="Назад" Click="Back_Click" Width="100" Height="40" FontSize="25" FontWeight="Bold"  FontStyle="Italic" Background="Gold" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,26,0" ></Button>
-        <ScrollViewer>
-            <TextBox TextWrapping="Wrap" Margin="10,50,10,10" x:Name="txbText" IsEnabled="False" FontSize="25" FontStyle="Italic" FontWeight="Bold" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" Text="Описание книг" VerticalAlignment="Top" Margin="10" HorizontalAlignment="Stretch" TextAlignment="Center" FontSize="33" FontStyle="Italic" FontWeight="Bold"></TextBlock>
+        <Button Grid.Column="2" VerticalAlignment="Center" x:Name="Back" Content="Назад" Click="Back_Click" Width="100" Height="40" FontSize="25" FontWeight="Bold"  FontStyle="Italic" Background="Gold" HorizontalAlignment="Right" Margin="0,0,26,0" ></Button>
+        <ScrollViewer Grid.ColumnSpan="3"
+                      Grid.Row="1"
+                      Grid.RowSpan="2">
+            <TextBox TextWrapping="Wrap" Margin="10,10,10,10" x:Name="txbText" IsEnabled="False" FontSize="25" FontStyle="Italic" FontWeight="Bold" />
         </ScrollViewer>
     </Grid>
 
