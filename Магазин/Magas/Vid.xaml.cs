@@ -71,7 +71,6 @@ namespace Магазин.Magas
                 }
             }
             Corzina corzina = new Corzina(selectedSpicoks);
-            //this.Content = corzina;
             corzina.Show();
         }
 
